@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Random Japanese Term</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,19 +11,31 @@
     body {
       font-family: 'Sawarabi Mincho', serif;
       margin: 2em;
+      padding: 0;
+      line-height: 1.6;
     }
     h1 {
       color: #333;
       font-style: italic;
+      word-wrap: break-word; /* ensures long words wrap */
     }
     p {
       font-size: 1.2em;
+      word-wrap: break-word; /* ensures text doesn't overflow */
+    }
+    /* Optional: A container to limit width for readability */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1em;
     }
   </style>
 </head>
 <body>
-  <h1 id="term">Loading...</h1>
-  <p id="definition"></p>
+  <div class="container">
+    <h1 id="term">Loading...</h1>
+    <p id="definition"></p>
+  </div>
 
   <script>
     fetch('terms.json')
