@@ -1,6 +1,75 @@
 [
-    { "term": "Serendipity", "definition": "The occurrence of events by chance in a happy or beneficial way." },
-    { "term": "Limerence", "definition": "The state of being infatuated or obsessed with another person." },
-    { "term": "Ephemeral", "definition": "Lasting for a very short time." }
+    {
+      "term": "yohako no bi",
+      "definition": "The aesthetic appreciation of empty spaces that enhance the beauty of surrounding elements."
+    },
+    {
+      "term": "komorebi",
+      "definition": "The effect of sunlight filtering through the leaves of trees."
+    },
+    {
+      "term": "ma",
+      "definition": "The space or pause between structural elements, highlighting the beauty of negative space."
+    },
+    {
+      "term": "wabi-sabi",
+      "definition": "The art of finding beauty in imperfection, transience, and simplicity."
+    },
+    {
+      "term": "ikigai",
+      "definition": "A reason for being; the value or purpose that gives meaning to life."
+    },
+    {
+      "term": "tsundoku",
+      "definition": "The habit of acquiring books and letting them pile up, often unread."
+    },
+    {
+      "term": "mono no aware",
+      "definition": "A poignant awareness of the transience of things, evoking a bittersweet appreciation of life."
+    },
+    {
+      "term": "natsukashi",
+      "definition": "A nostalgic, fond remembrance of the past."
+    },
+    {
+      "term": "shibui",
+      "definition": "An aesthetic of simple, subtle, and unobtrusive beauty."
+    },
+    {
+      "term": "yūgen",
+      "definition": "A profound awareness of the universe that triggers an emotional response too deep for words."
+    },
+    {
+      "term": "mottainai",
+      "definition": "A sense of regret concerning waste; the value of resourcefulness and gratitude for what one has."
+    },
+    {
+      "term": "senbazuru",
+      "definition": "The tradition of folding 1,000 origami cranes to make a wish come true."
+    },
+    {
+      "term": "enshū",
+      "definition": "The art of admiring and taking pleasure in something, often related to nature or a moment in time."
+    },
+    {
+      "term": "yugen",
+      "definition": "A deep, mysterious sense of the beauty of the universe that transcends words. (Alternate spelling of yūgen.)"
+    },
+    {
+      "term": "kokoro",
+      "definition": "A concept that encompasses the heart, mind, and spirit as a unified entity."
+    },
+    {
+      "term": "kaizen",
+      "definition": "A philosophy of continuous improvement in all aspects of life."
+    },
+    {
+      "term": "kenshō",
+      "definition": "A moment of awakening or insight in Zen Buddhism, marking the initial insight into the nature of existence."
+    },
+    {
+      "term": "satori",
+      "definition": "The experience of sudden enlightenment in Zen Buddhism, a deep realization of the true nature of reality."
+    }
   ]
   
