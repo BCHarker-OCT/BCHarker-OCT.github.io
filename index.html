@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Random Esoteric Term</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { color: #333; }
+    p { font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1 id="term">Loading...</h1>
+  <p id="definition"></p>
+
+  <script>
+    fetch('terms.json')
+      .then(response => response.json())
+      .then(terms => {
+        const randomIndex = Math.floor(Math.random() * terms.length);
+        const randomTerm = terms[randomIndex];
+        document.getElementById("term").textContent = randomTerm.term;
+        document.getElementById("definition").textContent = randomTerm.definition;
+      })
+      .catch(error => console.error('Error loading terms:', error));
+  </script>
+  
+</body>
+</html>
